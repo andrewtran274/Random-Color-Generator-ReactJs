@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app {
+  width: 400px;
+  background-color: #fff;
+  height: min-content;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app .title {
+  font-size: 40px;
+  font-weight: 500;
+  color: #f160ff;
+  pointer-events: none;
+}
+
+.app .title span {
+  color: #00ff38;
+}
+
+.content {
+  width: 200px;
+  height: 200px;
+  background-color: rgb(0, 65, 122);
+  border-radius: 10px;
+  margin-top: 20px;
+  pointer-events: none;
+}
+
+.result {
+  margin-top: 20px;
+  display: flex;
+  font-size: 20px;
+  gap: 50px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  transition: all 0.2s linear;
+}
+
+.result:hover {
+  opacity: 0.8;
+}
+
+.btn {
+  border: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: rgb(93, 93, 255);
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
